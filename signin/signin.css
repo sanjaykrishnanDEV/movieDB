@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(../assets/backgroundtiles.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 25px;
+}
+
+.login{
+    box-shadow: rgba(255, 255, 255, 1) 0px 1px 8px;
+    background-color: #022241;
+}

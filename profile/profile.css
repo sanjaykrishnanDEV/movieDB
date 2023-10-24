@@ -1,0 +1,49 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-image: url(/assets/backgroundtiles.jpg);
+  background-position: center;
+}
+li {
+  margin-right: 40px;
+  list-style: none;
+}
+
+.col {
+  height: 60vh;
+  margin: 10px;
+}
+
+.movie {
+  height: 75vh;
+  width: 20vw;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.movie:hover{
+    background-color: lightslategray;
+    transform: scale(1.1);
+    transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.movie img{
+    height: 350px;
+    border-radius: 10px;
+}
+
+.overlay{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: beige;
+}
